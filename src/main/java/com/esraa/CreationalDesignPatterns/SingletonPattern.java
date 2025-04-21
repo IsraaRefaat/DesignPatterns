@@ -9,7 +9,7 @@ public final class SingletonPattern {
     //it's private, so the client cannot make an instance of it.
     private SingletonPattern() {}
 
-    public static SingletonPattern getInstance() {
+    public static synchronized SingletonPattern getInstance() {
         if(instance == null) {
             instance = new SingletonPattern();
             System.out.println("Singleton Instance created");
