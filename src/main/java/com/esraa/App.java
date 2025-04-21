@@ -1,6 +1,8 @@
 package com.esraa;
 
 import com.esraa.CreationalDesignPatterns.BuilderPattern.Car;
+import com.esraa.CreationalDesignPatterns.PrototypePattern.BasicCar;
+import com.esraa.CreationalDesignPatterns.PrototypePattern.CarA;
 
 import java.net.CacheRequest;
 
@@ -10,8 +12,7 @@ import java.net.CacheRequest;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws CloneNotSupportedException {
         //BuilderPatternClient
 //        Car car = new Car.CarBuilder()
 //                .brand("Toyota")
@@ -28,5 +29,12 @@ public class App
 //                .numberOfDoors(4)
 //                .isAvailable(true)
 //                .build();
+
+
+        //PrototypePatternClient
+//        BasicCar carA = new CarA();
+//        BasicCar copyOfCarA= carA.clone();
+
     }
+
 }
