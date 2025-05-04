@@ -1,4 +1,4 @@
-package com.esraa.CreationalDesignPatterns.FactoryMethodPattern.Animal;
+package com.esraa.CreationalDesignPatterns.FactoryMethodPattern.animal;
 
 public class Tiger implements Animal {
 

@@ -1,9 +1,9 @@
 package com.esraa.CreationalDesignPatterns.FactoryMethodPattern;
 
 
-import com.esraa.CreationalDesignPatterns.FactoryMethodPattern.Animal.Animal;
-import com.esraa.CreationalDesignPatterns.FactoryMethodPattern.Factory.AnimalFactory;
-import com.esraa.CreationalDesignPatterns.FactoryMethodPattern.Factory.DogFactory;
+import com.esraa.CreationalDesignPatterns.FactoryMethodPattern.animal.Animal;
+import com.esraa.CreationalDesignPatterns.FactoryMethodPattern.factory.AnimalFactory;
+import com.esraa.CreationalDesignPatterns.FactoryMethodPattern.factory.DogFactory;
 
 public class Client {
     public static void main(String[] args) {
