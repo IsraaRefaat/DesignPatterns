@@ -1,11 +1,5 @@
 package com.esraa;
 
-import com.esraa.CreationalDesignPatterns.BuilderPattern.Car;
-import com.esraa.CreationalDesignPatterns.PrototypePattern.BasicCar;
-import com.esraa.CreationalDesignPatterns.PrototypePattern.CarA;
-
-import java.net.CacheRequest;
-
 /**
  * Hello world!
  *
